@@ -7,5 +7,5 @@ func Add(a, b int) int {
 }
 
 func Rand() int {
-	return rand.Int()
+	return rand.Int() + 1
 }
